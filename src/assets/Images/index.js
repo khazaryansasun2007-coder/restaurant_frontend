@@ -1,0 +1,25 @@
+import about1 from './about1.jpg'
+import about2 from './about2.jpg'
+import about3 from './about3.jpg'
+import about4 from './about4.jpg'
+import Menu1 from './Menu1.jpg'
+import Menu2 from './Menu2.jpg'
+import Menu3 from './Menu3.jpg'
+import Menu4 from './Menu4.jpg'
+import HeroImg from './HeroImg.jpg'
+import OurTeam1 from './OurTeam1.jpg'
+import OurTeam2 from './OurTeam2.jpg'
+import OurTeam3 from './OurTeam3.jpg'
+import OurTeam4 from './OurTeam4.jpg'
+import Event1 from './Event1.jpg'
+import Event2 from './Event2.jpg'
+import Event3 from './Event3.jpg'
+import Event4 from './Event4.jpg'
+import about5 from './about5.jpg'
+import about6 from './about6.jpg'
+import about7 from './about7.jpg'
+import about8 from './about8.jpg'
+
+
+
+export {about1, about2, about3, about4, Menu1, Menu2, Menu3, Menu4, HeroImg, OurTeam1, OurTeam2, OurTeam3, OurTeam4, Event1, Event2, Event3, Event4, about5, about6, about7, about8}

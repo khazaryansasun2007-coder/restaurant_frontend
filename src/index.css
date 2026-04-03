@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Clash Display";
+    src: url("/public/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Semibold.woff") format("woff"),
+    url("/public/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Semibold.woff2") format("woff2");
+    font-weight: 700;   
+}
+
+@font-face {
+    font-family: "Clash Display2";
+    src: url("/public/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff") format("woff"),
+    url("/public/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2");
+    font-weight: 700;   
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.logo {
+    font-family: "Elsie", serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.text-p {
+    font-family: "Roboto", sans-serif;
+}
+
+.clash {
+    font-family: Clash Display;
+}
+
+.clash2 {
+    font-family: Clash Display2;
+}
