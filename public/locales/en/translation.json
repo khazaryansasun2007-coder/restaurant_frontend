@@ -209,5 +209,6 @@
             "message": "Message must be at least 6 characters"
         }
     },
-    "added_to_cart" : "{{item}} added to cart!"
+    "added_to_cart": "{{item}} added to cart!",
+    "quantity": "Quantity"
 }

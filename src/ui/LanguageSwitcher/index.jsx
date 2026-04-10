@@ -18,12 +18,12 @@ const LanguageSwitcher = () => {
 
     useEffect(() => {
         const handleClickOutside = (event) => {
-            if(ref.current && !ref.current.contains(event.target)){
+            if (ref.current && !ref.current.contains(event.target)) {
                 setOpen(false)
             }
         }
         document.addEventListener("mousedown", handleClickOutside)
-        return () =>{
+        return () => {
             document.removeEventListener("mousedown", handleClickOutside)
         }
     }, [])
@@ -38,9 +38,8 @@ const LanguageSwitcher = () => {
                 <span className='relative text-sm font-medium'>
                     {currentLanguage.label}
                     <span
-                        className={`absolute left-0 -bottom-1 h-[2px] bg-[#36392d] transition-all duration-300 ${
-                            open ? "w-full" : "w-0"
-                        }`}
+                        className={`absolute left-0 -bottom-1 h-[2px] bg-[#36392d] transition-all duration-300 ${open ? "w-full" : "w-0"
+                            }`}
                     ></span>
                 </span>
 
@@ -49,7 +48,7 @@ const LanguageSwitcher = () => {
 
             {open && (
                 <div className='flex flex-col  items-start gap-[5px] absolute right-0 mt-2 w-44 bg-[#36392d]/10 border p-5 rounded-xl z-50 overflow-hidden'>
-                    {supportedLanguages.map((lang) => (      
+                    {supportedLanguages.map((lang) => (
                         <div
                             key={lang.code}
                             onClick={() => changeLanguage(lang.code)}
