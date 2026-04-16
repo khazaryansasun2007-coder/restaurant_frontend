@@ -5,9 +5,10 @@ import { useTranslation } from 'react-i18next'
 const AboutUs = () => {
   const images = [about1, about2, about3, about4, about5, about6, about7, about8]
   const [currentIndex, setCurrentIndex] = useState(0)
-  const {t} = useTranslation()
+  const { t } = useTranslation()
 
   useEffect(() => {
+
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length)
     }, 3000)
@@ -16,8 +17,8 @@ const AboutUs = () => {
   }, [])
 
   return (
-    <section className='h-[90vh] bg-[#b7bca9b5] py-20 pt-[128px]'>
-      
+    <section className='h-[90vh] bg-[#b7bca9b5] py-50'>
+
       <div className='flex justify-around items-start mb-16 text-[#36392D]'>
         <h2 className='text-5xl font-bold'>{t("headings.heading-about")}</h2>
         <p className='max-w-[500px] text-lg'>{t("descriptions.desc-about")}</p>

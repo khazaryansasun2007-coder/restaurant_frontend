@@ -24,7 +24,7 @@ const Menu = () => {
   
 
   return (
-    <div className='bg-[#b7bca9b5] pt-26' >
+    <div className='bg-[#b7bca9b5] pt-30' >
       <div className='flex flex-col gap-6 justify-center items-center'>
         <h1 className='text-[#36392D] text-5xl font-bold clash'>{t("headings.heading-menu")}</h1>
         <p className='max-w-[500px] text-lg text-p'>{t("descriptions.desc-menu")}</p>
